@@ -24,7 +24,7 @@ syllabify_line(line, ipa_converter, syllable_pattern, not_symbol_pattern, add_bo
 
 * `line` - Line to syllabify.
 * `ipa_converter` - Function that converts a string to ipa. For English, use `english_to_ipa` and for Polish, use `polish_to_ipa`.
-* `syllable_pattern` - Tuple of compiled regular expressions that matche the syllables in a word.
+* `syllable_pattern` - Tuple of compiled regular expressions that match the syllables in a word.
 * `not_symbol_pattern` - Compiled regular expression that matches disallowed characters like punctuation.
 * `add_boundaries` - Whether or not to add hashtags to the outermost syllables to mark the begining and end of the word.
 * `as_event` - Whether or not to return a (cues, outcomes)-tuple,
