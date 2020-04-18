@@ -151,8 +151,8 @@ with gzip.open(S2L_EVENTS_POL, 'rt', encoding='utf-8') as e:
 
 All you need to start using the package is to copy the folder inside 'package' in your computer and make it as your working directory in Python. You will also need to install the following packages:
 
-- epitran
-- regex
+- [epitran](https://pypi.org/project/epitran/)
+- [regex](https://pypi.org/project/regex/)
 
 ## Author
 
