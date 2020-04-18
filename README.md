@@ -154,7 +154,7 @@ All you need to start using the package is to copy the folder inside 'package' i
 - epitran
 - regex
 
-## Authors
+## Author
 
 Adnane Ez-zizi (I am very grateful to Christian Adam for optimising an earlier version of the code)
 
